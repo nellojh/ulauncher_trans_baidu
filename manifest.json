@@ -1,0 +1,31 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "transbaidu",
+    "description": "translate 百度 extension",
+    "developer_name": "xuexilangren",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 1
+    },
+    "preferences": [{
+            "id": "transbaidu",
+            "type": "keyword",
+            "name": "关键字",
+            "default_value": "tr"
+        },
+        {
+            "id": "app_id",
+            "type": "input",
+            "name": "appid",
+            "description": "百度翻译服务的appid",
+            "default_value": ""
+        },
+        {
+            "id": "key",
+            "type": "input",
+            "name": "key",
+            "description": "百度翻译服务的key",
+            "default_value": ""
+        }
+    ]
+}
