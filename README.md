@@ -1,4 +1,7 @@
 # transbaidu
-ulauncher 翻译插件
+
+ulauncher 百度翻译插件，在原版基础上做了一部分修改
+
 ## 配置
-扩展需要配置百度通用翻译的appid 和 key 才能正常使用
+
+Enter选中后自动复制到剪切板
